@@ -1,3 +1,3 @@
 <template>
-  <h1>HAHA</h1>
+  <h1>Uwii</h1>
 </template>

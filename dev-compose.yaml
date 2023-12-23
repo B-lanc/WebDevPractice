@@ -1,0 +1,17 @@
+services:
+  frontend-dev:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile-dev
+    volumes:
+      - ./frontend:/app
+    ports:
+      - 80:80
+  backend-dev:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app
+    ports:
+      - 8080:8090
