@@ -18,5 +18,9 @@
     "prettier-plugin-tailwindcss": "^0.5.9",
     "vue": "^3.3.12",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pocketbase": "^0.20.1"
   }
 }
